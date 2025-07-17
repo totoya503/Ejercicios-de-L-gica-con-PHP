@@ -1,4 +1,6 @@
 <?php
+/**El costo de las llamadas telefónicas internacionales depende de la zona geográfica en la que 
+ * se encuentre el país destino y del número de minutos hablados. */
     function llamdasInter($cod, $duracion){
         switch($cod){
             case 12:
